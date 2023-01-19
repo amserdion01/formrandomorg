@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab2-WT</title>
+    <link rel="stylesheet" href="integer_gen.css" />
+</head>
+
+<body >
+    <div class="links">
+        <a>Validate
+            page first
+        </a>
+        
+        <a href="../index.html">Back to the main page</a>
+    </div>
+    <form  action="https://www.random.org/integers/">
+            <div class="form">
+            
+            <label for="num">How many integers do you want to generate?</label>
+            <input type="text" name="num" id="num" />
+            
+
+            <label for="min">Which number do you want be the bottom limit?</label>
+            <input type="text" name="min" id="min" />
+            
+
+            <label for="max">Which number do you want be the top limit?</label>
+            <input type="text" name="max" id="max" />
+            
+
+            <label for="col">In how many columns do you want the numbers to be displayed?</label>
+            <input type="text" name="col" id="col" />
+            
+            
+            <div>
+                <label for="html">HTML</label>
+                <input type="radio" name="format" id="html" value="html" checked="checked" />
+                <label for="plain">Plain</label>
+                <input type="radio" name="format" id="plain" value="plain" />
+                
+            </div>
+            
+            <div>
+                How should the integers be displayed?
+                <input type="radio" name="base" value="16" />Base 16 
+                <input type="radio" name="base" value="10"  />Base 1 
+                <input type="radio" name="base" value="8" /> Base 8 
+                <input type="radio" name="base" value="2"  checked="checked"> Base 2 
+            </div>
+            <input type="submit" value="Get Numbers" />
+            
+        </div>
+        </form>
+</body>
+
+</html>

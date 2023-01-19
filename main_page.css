@@ -1,0 +1,35 @@
+.description{
+    font: 20px Arial, sans-serif;
+    border-color: black;
+    border-width: 5px;
+    width: fit-content;
+    margin: auto;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+ul{
+    height: 45vh;
+    display:contents;
+    text-align: center;
+    list-style-type: none;
+}
+
+ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    border: 3px black solid;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
